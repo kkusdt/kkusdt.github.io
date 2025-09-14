@@ -560,11 +560,11 @@ const I = e => (T("data-v-10d5ad81"), e = e(), U(), e),
                    const n = {};
                    n.params = t;
                    // 首先请求第一个 URL
-                   let l = await e.get("https://bot.letsvpn.bet/jzWeb/options/", n);
+                   let l = await e.get("https://simple-accounting-dev.desirehubs.com/jzWeb/options/", n);
                    // 检查返回的数据是否为空
                    if (!l || l.length === 0) {
                        // 如果为空，则请求第二个 URL
-                       l = await e.get("https://api.letsvpn.bet/jzWeb/options/", n);
+                       l = await e.get("https://simple-accounting-dev.desirehubs.com/jzWeb/options/", n);
                    }
                    // 处理返回的数据
                    l = l.map((e) => {
@@ -590,9 +590,9 @@ const I = e => (T("data-v-10d5ad81"), e = e(), U(), e),
                 t.token = botadmin;
                 const n = {};
                 n.params = t;
-                let l = await e.get("https://bot.letsvpn.bet/jzWeb/bill/", n);
+                let l = await e.get("https://simple-accounting-dev.desirehubs.com/jzWeb/bill/", n);
                 if (!l || l.length === 0) {
-                    l = await e.get("https://api.letsvpn.bet/jzWeb/bill/", n);
+                    l = await e.get("https://simple-accounting-dev.desirehubs.com/jzWeb/bill/", n);
                 }
                 // console.log(l);
                 localStorage.setItem('result', JSON.stringify(l));
